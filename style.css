@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color:rgb(177, 217, 116);
+}
+.container{
+  height: 70vh;
+  /* width: 70vh;*/
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    
+    flex-wrap: wrap; /* come for next line  */
+    /* for making all box in the center of the game div */
+    justify-content: center; 
+    align-items: center;
+    gap:1.5vmin; /* for gapping between all box */
+    
+
+}
+.btnbox{
+    height:18vmin;
+    width:18vmin;
+    border: none;
+    border-radius:1rem;
+    border:none;
+    box-shadow:0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color:#b0413e;
+    background: color #ffffc7;
+
+    
+}
