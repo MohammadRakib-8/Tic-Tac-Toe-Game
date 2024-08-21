@@ -14,7 +14,6 @@ body{
     height:60vmin;
     width:60vmin;
     display: flex;
-    
     flex-wrap: wrap; /* come for next line  */
     /* for making all box in the center of the game div */
     justify-content: center; 
