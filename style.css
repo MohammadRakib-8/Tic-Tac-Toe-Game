@@ -10,7 +10,6 @@ body{
   justify-content: center;
   align-items: center;
 }
-
 .game{
     height:60vmin;
     width:60vmin;
@@ -21,7 +20,6 @@ body{
     justify-content: center; 
     align-items: center;
     gap:1.5vmin; /* for gapping between all box */
-    
 
 }
 .btnbox{
@@ -34,8 +32,6 @@ body{
     font-size: 8vmin;
     color:#b0413e;
     background: color #ffffc7;
-
-    
 }
 #reset-btn{
     height:50px;
@@ -44,10 +40,7 @@ body{
     border-radius: 1rem;
     font-size: medium;
     background-color:#b0413e;
-    
-   
 }
-
 #new-btn{
     height:50px;
     width:120px;
@@ -55,14 +48,10 @@ body{
     border-radius: 1rem;
     font-size: medium;
     background-color:#b0413e;
-    
-   
 }
-
 #msg-win{
     font-size:4vmin;
     font-style: oblique;
-
 }
 .msg-container{
     height:15vmin
@@ -70,3 +59,4 @@ body{
 .hide{
     display: none;
 }
+

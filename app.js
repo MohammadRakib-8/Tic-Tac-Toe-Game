@@ -34,10 +34,13 @@ bBox.forEach((btnbox) =>{
     }
     )
 });
+
 showWinner=(winner)=>{
  msgWin.innerText=`Congratulation ! Winner is ${winner}`   
 msgContainer.classList.remove("hide");
+rBtn.classList.add("hide");
 }
+
 let checkWinner=()=>{
     for(let pattern of winPattern){
         
