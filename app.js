@@ -35,10 +35,17 @@ bBox.forEach((btnbox) =>{
     )
 });
 
+const disableBtnBoxes=()=>{
+for (let box of bBox){
+    box.disabled="true";
+}
+}
+
 showWinner=(winner)=>{
  msgWin.innerText=`Congratulation ! Winner is ${winner}`   
 msgContainer.classList.remove("hide");
 rBtn.classList.add("hide");
+disableBtnBoxes();
 }
 
 let checkWinner=()=>{
